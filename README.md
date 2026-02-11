@@ -1,11 +1,11 @@
-# Quizly 🎯
+# Quizly 
 
 Quizly is a modern trivia quiz web application built with **React + TypeScript** and powered by the **Open Trivia API**.  
 It features category-based quizzes, a visual timer, score tracking, and a glassmorphism UI.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Category selection with images
 - Timed multiple-choice questions
@@ -19,7 +19,7 @@ It features category-based quizzes, a visual timer, score tracking, and a glassm
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - React
 - TypeScript
@@ -31,10 +31,17 @@ It features category-based quizzes, a visual timer, score tracking, and a glassm
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/your-username/quizly.git
 cd quizly
 npm install
 npm run dev
+```
+
+---
+
+## Deploy 
+
+https://quizly-rosy.vercel.app/
