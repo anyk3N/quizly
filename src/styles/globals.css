@@ -1,0 +1,42 @@
+@import "./variables.css";
+@import "./theme.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 90vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  color: var(--text);
+
+  background:
+          linear-gradient(var(--bg-overlay), var(--bg-overlay)),
+          var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: var(--bg-overscroll);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, textarea {
+  font-family: inherit;
+  border: none;
+  background: none;
+  color: inherit;
+}

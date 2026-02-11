@@ -1,0 +1,28 @@
+:root {
+    --radius-xs: 8px;
+    --radius-sm: 12px;
+    --radius-md: 16px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+
+    --space-xs: 6px;
+    --space-sm: 12px;
+    --space-md: 20px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 2rem;
+
+    --shadow-soft: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --shadow-strong: 0 12px 40px rgba(0, 0, 0, 0.3);
+
+    --glass-blur: blur(18px);
+    --glass-border: rgba(255, 255, 255, 0.25);
+
+    --transition-fast: 0.25s ease;
+    --transition-slow: 0.4s ease;
+}

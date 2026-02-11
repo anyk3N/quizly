@@ -1,0 +1,31 @@
+[data-theme="light"] {
+    --bg-image: var(--bg-light);
+    --bg-overlay: rgba(255, 255, 255, 0.35);
+    --bg-overscroll: #EEDFF3;
+
+    --card: rgba(255, 255, 255, 0.75);
+    --text: #1b1f3a;
+    --muted: #6b7280;
+
+    --accent: #7c6ff5;
+    --accent-soft: #e0ddff;
+
+    --correct: #4ade80;
+    --wrong: #f87171;
+}
+
+[data-theme="dark"] {
+    --bg-image: var(--bg-dark);
+    --bg-overlay: rgba(15, 18, 34, 0.7);
+    --bg-overscroll: #1E1639;
+
+    --card: rgba(255, 255, 255, 0.08);
+    --text: #ffffff;
+    --muted: #9ca3af;
+
+    --accent: #8b7cff;
+    --accent-soft: rgba(139, 124, 255, 0.15);
+
+    --correct: #10b981;
+    --wrong: #f43f5e;
+}

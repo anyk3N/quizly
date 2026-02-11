@@ -1,0 +1,91 @@
+
+.page {
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer {
+}
+
+.card {
+    padding: 2rem;
+    width: 70%;
+    min-height: 70vh;
+    background: var(--card);
+    border-radius: 28px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 40px 80px rgba(0,0,0,0.15);
+    border: 1px solid rgba(255,255,255,0.2);
+    animation: fadeUp 0.8s ease;
+}
+
+.card hr {
+    max-width: 500px;
+    border: none;
+    height: 3px;
+    background-color: var(--text);
+    margin-bottom: 2rem;
+    border-radius: 28px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.question {
+    padding: 1rem;
+    width: 100%;
+    min-height:180px;
+    font-size: 2rem;
+}
+
+.answers {
+    width: 100%;
+    max-width: 720px;
+    display: grid;
+    gap: 1rem;
+}
+
+.answer {
+    padding: 1rem;
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--accent-soft);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+    color: var(--text);
+}
+
+.answer:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+}
+
+.correct {
+    background: var(--correct);
+    color: black;
+}
+
+.wrong {
+    background: var(--wrong);
+    color: black;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,111 @@
+.logo {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--text);
+    margin-top: 40px;
+    margin-left: 2rem;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: center;
+    color: var(--muted);
+    margin-bottom: 2rem;
+}
+
+.hero {
+    display: flex;
+}
+
+.card {
+    width: 40%;
+    padding: 3rem 3.5rem;
+    background: var(--card);
+    border-radius: 28px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 40px 80px rgba(0,0,0,0.15);
+    border: 1px solid rgba(255,255,255,0.2);
+    animation: fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-bottom: 1px solid var(--accent-soft);
+}
+
+.signup {
+    background: var(--accent);
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 0.6rem 1.3rem;
+    margin-top:2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 30px rgba(124, 111, 245, 0.4);
+}
+
+.signup:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(124, 111, 245, 0.6);
+}
+
+.input::placeholder {
+    color: var(--muted);
+}
+
+.label {
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember {
+    display: flex;
+    gap: 5px;
+}
+
+.forgotten {
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--muted);
+
+
+}
